@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.write("Coding Club 2024")
+st.write("Favorite Character")
 df = pd.DataFrame({
   'number': [1, 2, 3, 4, 5],
   'name': ['ali','ceros','timbul','esok','mayer'],
