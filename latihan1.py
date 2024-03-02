@@ -1,4 +1,7 @@
 import streamlit as st
+from page1 import page_1
+from page2 import page_2
+from page3 import page_3
 # import pandas as pd
 
 # st.write("Favorite Character!")
@@ -12,15 +15,9 @@ import streamlit as st
 # df
 
 
-def page_1():
-  st.title("Page 1")
-  st.write("This page use to introduction")
-def page_2():
-  st.title("Page 2")
-  st.write("This page use to show youtube video")
-def page_3():
-  st.title("Page 3")
-  st.write("This page use to show rumus matematika")
+
+
+
 
 PAGES = {
   "Page 1" : page_1,
@@ -28,8 +25,9 @@ PAGES = {
   "Page 3" : page_3,
 }
 
-st.sidebar.image("c:\Users\LABKOM2023\Downloads\94d4391a35f42c04ba3fb3dfc0c47d88.png", width=200)
+
+
+
 page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
- 
