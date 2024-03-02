@@ -5,5 +5,5 @@ def page_1():
   st.write("Project coding ini menampilkan :")
   st.write("1) Favorite video!")
   st.write("2) Code buat aplikasi hitung segitiga :D")
-  st.write("Favorite disney princess!")
-  st.image("download.jpg",width=200)
+  st.write("3) Favorite disney princess!")
+  st.image("download.jpg",width=300)
