@@ -1,3 +1,4 @@
+import streamlit as st
 def page_2():
   st.title("Page 2")
   st.write("This page use to show youtube video")
