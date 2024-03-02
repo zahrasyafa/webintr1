@@ -28,6 +28,7 @@ PAGES = {
   "Page 3" : page_3,
 }
 
+st.sidebar.image("c:\Users\LABKOM2023\Downloads\94d4391a35f42c04ba3fb3dfc0c47d88.png", width=200)
 page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
