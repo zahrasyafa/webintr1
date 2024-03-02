@@ -17,7 +17,7 @@ def page_1():
   st.write("This page use to introduction")
 def page_2():
   st.title("Page 2")
-  st.write("This page use to youtube video")
+  st.write("This page use to show youtube video")
 def page_3():
   st.title("Page 3")
   st.write("This page use to show rumus matematika")
