@@ -28,7 +28,7 @@ PAGES = {
   "Page 3" : page_3,
 }
 
-page = st.sidebar.radio("page", list(PAGES.keys()))
+page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
  
