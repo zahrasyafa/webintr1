@@ -27,7 +27,7 @@ PAGES = {
 
 
 
-
+st.sidebar.image("image.jpeg",width=100)
 page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
