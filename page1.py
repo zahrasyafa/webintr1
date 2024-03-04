@@ -1,9 +1,8 @@
 import streamlit as st
 def page_1():
   st.title("Page 1")
-  st.write("This page use to introduction")
-  st.write("Project coding ini menampilkan :")
-  st.write("1) Favorite video!")
-  st.write("2) Code buat aplikasi hitung segitiga :D")
-  st.write("3) Favorite disney princess!")
-  st.image("download.jpg",width=300)
+  st.write("Hai world! Welcome to my website ꒒ ০ ⌵ ୧ ♡")
+  st.write("Syaf, She/Her, 16, Pink addict, Sleepy everytime, Loves read novel and watch k-drama!, Ice cream and salad lover, YUK MAKAN SAYUR (๑ᵔ⤙ᵔ๑)🍽️")
+  st.image("Cute Love Cartoons.jpg",width=700)
+  
+  
