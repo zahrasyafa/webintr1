@@ -42,10 +42,10 @@ st.markdown(
     """
 
         <style>
-        [data-tesrid="stActionButtonIcon"]{
+        [data-testid="stActionButtonIcon"]{
              display : none;
         }
-              [data-testid="baseButton-header"]{
+        [data-testid="baseButton-header"]{
         }
 
         <style>
