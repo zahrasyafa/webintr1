@@ -38,3 +38,16 @@ st.sidebar.image("AFI.png",width=100)
 page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
+st.markdown(
+    """
+
+        <style>
+        [data-tesrid="stActionButtonIcon"]{
+             display : none;
+        }
+              [data-testid="baseButton-header"]{
+        }
+
+        <style>
+        """
+)
