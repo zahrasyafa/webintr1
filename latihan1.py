@@ -39,16 +39,19 @@ page = st.sidebar.radio("My Pages!", list(PAGES.keys()))
 PAGES[page]()
 
 st.markdown(
-    """
+      """
 
-          <style>
-          [data-testid="stActionButtonIcon"] {
-              display : none;
-          }
-          [data-testid="baseButton-header"] {
-              display : none;
-          }
+            <style>
+            [data-testid="stActionButtonIcon"] {
+                display : none;
+            }
+            [data-testid="baseButton-header"] {
+                display : none;
+            }
+            #MainMenu{visibility: hidden;}
+            footer{visibility: hidden;}
 
-          </style>
-          """
+            </style>
+            """,
+      unsafe_allow_html=True,
   )
