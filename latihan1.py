@@ -5,6 +5,7 @@ from page3 import page_3
 from page4 import page_4
 from page5 import page_5
 from page6 import page_6
+from image1 import main
 # import pandas as pd
 
 # st.write("Favorite Character!")
@@ -29,6 +30,7 @@ PAGES = {
   "Page 3" : page_4,
   "Movie list" : page_5,
   "Novel Recomendations!" : page_6,
+  "Convert your image" : main,
 }
 
 
