@@ -1,6 +1,6 @@
 import streamlit as st
 def page_3():
-  st.title("Page 3 using for rumus matematika :D")
+  st.title("This page using for rumus matematika :D")
   st.write("This page use to show rumus matematika ≽^•⩊•^≼")
   st.write("Show page from file.MD (Mark Down)")
 
