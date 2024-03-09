@@ -1,7 +1,7 @@
 import streamlit as st
 def page_3():
   st.title("This page use to show rumus matematika ≽^•⩊•^≼")
-  st.write('Guys, do you like matematika? Kalau suka kalian sukanya apa?')
+  st.write('Guys, do you like matematika? Kalau suka kalian sukanya apa? kalau hitung duit kalian suka gak?')
   st.write("Show page from file.MD (Mark Down)")
 
   with open("alifa.md", "r") as file:
