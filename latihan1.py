@@ -41,14 +41,14 @@ PAGES[page]()
 st.markdown(
     """
 
-        <style>
-        [data-testid="stActionButtonIcon"] {
-             display : none;
-        }
-        [data-testid="baseButton-header"] {
-            display : none;
-        }
+          <style>
+          [data-testid="stActionButtonIcon"] {
+              display : none;
+          }
+          [data-testid="baseButton-header"] {
+              display : none;
+          }
 
-        <style>
-        """
-)
+          </style>
+          """
+  )
